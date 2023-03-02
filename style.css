@@ -1,0 +1,18 @@
+* {
+  background-color: rgb(215, 215, 215);
+}
+
+.grit-container {
+  display: grid;
+  grid-template-columns: repeat(16, 24px);
+  grid-template-rows: repeat(16, 24px);
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.grit-item {
+  height: 24px;
+  width: 24px;
+  background-color: rgb(255, 255, 255);
+}
