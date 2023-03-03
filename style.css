@@ -1,18 +1,41 @@
 * {
-  background-color: rgb(215, 215, 215);
+  font-family: Roboto, sans-serif;
+  background-color: rgb(220, 220, 220);
+}
+
+#container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-size: 80px;
+  align-items: center;
+  margin-bottom: 34px;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(16, 24px);
-  grid-template-rows: repeat(16, 24px);
   justify-content: center;
   align-content: center;
-  height: 100vh;
+  height: 400px;
+  width: 400px;
 }
 
 .grid-item {
-  height: 24px;
-  width: 24px;
   background-color: rgb(255, 255, 255);
+}
+
+.controls-container{
+  text-align: center;
+  margin-top: 34px;
+}
+
+.range-value {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
 }
